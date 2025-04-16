@@ -1,0 +1,29 @@
+{
+    "apikey": "API_Key",
+    "userkey": "API_Userkey",
+    "username": "API_Username",
+    "whitelist": [
+    ],
+    "privileged_whitelist": [
+    ],
+    "shock_limits": {
+        "normal": {
+            "max_intensity": 50,
+            "max_duration": 5
+        },
+        "privileged": {
+            "max_intensity": 100,
+            "max_duration": 15
+        }
+    },
+    "vibrate_limits": {
+        "normal": {
+            "max_intensity": 50,
+            "max_duration": 5
+        },
+        "privileged": {
+            "max_intensity": 100,
+            "max_duration": 15
+        }
+    }
+}
